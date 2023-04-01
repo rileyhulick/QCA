@@ -1,0 +1,3 @@
+[submodule "plugins/qca-tiny-aes-c/tiny-AES-c"]
+	path = plugins/qca-tiny-aes-c/tiny-AES-c
+	url = https://github.com/kokke/tiny-AES-c
