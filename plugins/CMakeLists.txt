@@ -2,7 +2,7 @@
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib/${QCA_LIB_NAME}/crypto")
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib/${QCA_LIB_NAME}/crypto")
 
-set(PLUGINS "botan;cyrus-sasl;gcrypt;gnupg;logger;nss;ossl;pkcs11;softstore" CACHE INTERNAL "")
+set(PLUGINS "botan;cyrus-sasl;gcrypt;gnupg;linux;logger;nss;ossl;pkcs11;softstore" CACHE INTERNAL "")
 
 # Initialize WITH_${PLUGIN}_PLUGIN cache variables
 foreach(PLUGIN IN LISTS PLUGINS)

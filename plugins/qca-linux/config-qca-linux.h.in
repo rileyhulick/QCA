@@ -1,0 +1,3 @@
+#cmakedefine01 WITH_DRIVER_INTROSPECTION
+#cmakedefine01 USING_AF_NETLINK
+#cmakedefine01 USING_VM_SPLICE
